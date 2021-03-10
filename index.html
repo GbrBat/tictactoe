@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- <button id="player">Player </button> -->
     <div id="game">
         <div class="line">
-            <div class="casa" id="casa1" value="1">1</div>
-            <div class="casa" id="casa2" value="2">2</div>
-            <div class="casa" id="casa3" value="3">3</div>
+            <div data-value="0" class="box" id="box1"></div>
+            <div data-value="1" class="box" id="box2"></div>
+            <div data-value="2" class="box" id="box3"></div>
         </div>
         <div class="line">
-            <div class="casa" id="casa4" value="4">4</div>
-            <div class="casa" id="casa5" value="5">5</div>
-            <div class="casa" id="casa6" value="6">6</div>
+            <div data-value="3" class="box" id="box4"></div>
+            <div data-value="4" class="box" id="box5"></div>
+            <div data-value="5" class="box" id="box6"></div>
         </div>
         <div class="line">
-            <div class="casa" id="casa7" value="7">7</div>
-            <div class="casa" id="casa8" value="8">8</div>
-            <div class="casa" id="casa9" value="9">9</div>
+            <div data-value="6" class="box" id="box7"></div>
+            <div data-value="7" class="box" id="box8"></div>
+            <div data-value="8" class="box" id="box9"></div>
         </div>
     </div>
-    <div id="resultado"></div>
+    <div id="result"></div>
     <script src="script.js"></script>
 </body>
 
